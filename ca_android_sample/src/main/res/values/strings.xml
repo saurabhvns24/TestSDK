@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ca_android_sample</string>
+    <string name="launch">Launch</string>
+    <string name="launcher">Launcher_1</string>
+    <string name="launcher_5">Launcher_5</string>
+    <string name="launcher_4">Launcher_4</string>
+    <string name="launcher_3">Launcher_3</string>
+    <string name="launcher_2">Launcher_2</string>
+</resources>

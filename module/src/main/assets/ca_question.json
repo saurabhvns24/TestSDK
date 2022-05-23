@@ -1,0 +1,458 @@
+{
+  "elements": [
+    {
+      "type": "question",
+      "question": {
+        "options": {
+          "multiple": true
+        },
+        "id": 12341003,
+        "type": "choice",
+        "label": "This is a multiple choice question where user can select multiple answers",
+        "validation": {
+          "required": true,
+          "min_characters": null
+        },
+        "choices": [
+          {
+            "value": "ddaa3449c84cbe2c020994a7",
+            "label": "Option 1"
+          },
+          {
+            "value": "320980e76aaa11d5fdc2508a",
+            "label": "Option 2"
+          }
+        ],
+        "rating_scale": null
+      },
+      "sub_element_conditions": []
+    },
+    {
+      "type": "question",
+      "question": {
+        "options": null,
+        "id": 12350753,
+        "type": "rating",
+        "label": "How likely are you to recommend our brand to a friend or colleague?",
+        "validation": {
+          "required": false,
+          "min_characters": null
+        },
+        "choices": null,
+        "rating_scale": {
+          "min": {
+            "value": "0",
+            "label": "Very unlikely"
+          },
+          "max": {
+            "value": "10",
+            "label": "Highly likely"
+          }
+        }
+      },
+      "sub_element_conditions": []
+    },
+    {
+      "type": "question",
+      "question": {
+        "options": null,
+        "id": 12340503,
+        "type": "text",
+        "label": "How would you describe your overall experience?",
+        "validation": {
+          "required": true,
+          "min_characters": 2
+        },
+        "choices": null,
+        "rating_scale": null
+      },
+      "sub_element_conditions": []
+    },
+    {
+      "type": "question",
+      "question": {
+        "options": null,
+        "id": 12340473,
+        "type": "rating",
+        "label": "Room",
+        "validation": {
+          "required": true,
+          "min_characters": null
+        },
+        "choices": null,
+        "rating_scale": {
+          "min": {
+            "value": "1",
+            "label": "Terrible"
+          },
+          "max": {
+            "value": "5",
+            "label": "Excellent"
+          }
+        }
+      },
+      "sub_element_conditions": [
+        {
+          "values": [
+            "1",
+            "2"
+          ],
+          "elements": [
+            {
+              "type": "question",
+              "question": {
+                "options": null,
+                "id": 12341023,
+                "type": "text",
+                "label": "This is a conditional question in case the rating is 1 OR 2",
+                "validation": {
+                  "required": false,
+                  "min_characters": null
+                },
+                "choices": null,
+                "rating_scale": null
+              },
+              "sub_element_conditions": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "question": {
+        "options": null,
+        "id": 12347793,
+        "type": "text",
+        "label": "Do you have some suggestion? ",
+        "validation": {
+          "required": false,
+          "min_characters": null
+        },
+        "choices": null,
+        "rating_scale": null
+      },
+      "sub_element_conditions": []
+    },
+    {
+      "type": "question",
+      "question": {
+        "options": null,
+        "id": 12340513,
+        "type": "rating",
+        "label": "How likely are you to recommend us to a friend or colleague?",
+        "validation": {
+          "required": false,
+          "min_characters": null
+        },
+        "choices": null,
+        "rating_scale": {
+          "min": {
+            "value": "0",
+            "label": "Very unlikely"
+          },
+          "max": {
+            "value": "10",
+            "label": "Highly likely"
+          }
+        }
+      },
+      "sub_element_conditions": []
+    },
+    {
+      "type": "question",
+      "question": {
+        "options": {
+          "multiple": true
+        },
+        "id": 12342183,
+        "type": "choice",
+        "label": "This is a multiple choice question where user can select multiple answers from dropdown",
+        "validation": {
+          "required": false,
+          "min_characters": null
+        },
+        "choices": [
+          {
+            "value": "1e68b5381f8925221d597824",
+            "label": "Option 1"
+          },
+          {
+            "value": "d226c235fe15676c99e48ace",
+            "label": "Option 2"
+          },
+          {
+            "value": "fpjnei8oj",
+            "label": "Option 3"
+          },
+          {
+            "value": "7hmshscdh",
+            "label": "Option 4"
+          },
+          {
+            "value": "rczd2a3xs",
+            "label": "Option 5"
+          },
+          {
+            "value": "4qogrg2mu",
+            "label": "Option 6"
+          },
+          {
+            "value": "qe992k4hp",
+            "label": "Option 7"
+          },
+          {
+            "value": "omcjj9ar4",
+            "label": "Option 8"
+          },
+          {
+            "value": "o655k4wml",
+            "label": "Option 9"
+          }
+        ],
+        "rating_scale": null
+      },
+      "sub_element_conditions": []
+    },
+    {
+      "type": "question",
+      "question": {
+        "options": {
+          "multiple": false
+        },
+        "id": 12343853,
+        "type": "choice",
+        "label": "This is a multiple choice question with one answer only",
+        "validation": {
+          "required": false,
+          "min_characters": null
+        },
+        "choices": [
+          {
+            "value": "666b8ca2a13b12f3ef064a55",
+            "label": "Option 1"
+          },
+          {
+            "value": "b16c85bf4293155dd5b4f395",
+            "label": "Option 2"
+          },
+          {
+            "value": "5emwk4nn3",
+            "label": "Option 3"
+          }
+        ],
+        "rating_scale": null
+      },
+      "sub_element_conditions": []
+    },
+    {
+      "type": "question",
+      "question": {
+        "options": null,
+        "id": 12347803,
+        "type": "choice",
+        "label": "Your age",
+        "validation": {
+          "required": false,
+          "min_characters": null
+        },
+        "choices": [
+          {
+            "value": "10",
+            "label": "<20"
+          },
+          {
+            "value": "20",
+            "label": "20-29"
+          },
+          {
+            "value": "30",
+            "label": "30-39"
+          },
+          {
+            "value": "40",
+            "label": "40-49"
+          },
+          {
+            "value": "50",
+            "label": "50-59"
+          },
+          {
+            "value": "60",
+            "label": "60-69"
+          },
+          {
+            "value": "70",
+            "label": "70-79"
+          },
+          {
+            "value": "80",
+            "label": "80+"
+          }
+        ],
+        "rating_scale": null
+      },
+      "sub_element_conditions": []
+    },
+    {
+      "type": "question",
+      "question": {
+        "options": null,
+        "id": 12341013,
+        "type": "rating",
+        "label": "The company made it easy to understand and follow the preventive measures against Covid 19.",
+        "validation": {
+          "required": true,
+          "min_characters": null
+        },
+        "choices": null,
+        "rating_scale": {
+          "min": {
+            "value": "1",
+            "label": "Strongly Disagree"
+          },
+          "max": {
+            "value": "7",
+            "label": "Strongly Agree"
+          }
+        }
+      },
+      "sub_element_conditions": []
+    },
+    {
+      "type": "question",
+      "question": {
+        "options": null,
+        "id": 12340523,
+        "type": "choice",
+        "label": "Type of Journey",
+        "validation": {
+          "required": false,
+          "min_characters": null
+        },
+        "choices": [
+          {
+            "value": "business",
+            "label": "Business"
+          },
+          {
+            "value": "alone",
+            "label": "Alone"
+          },
+          {
+            "value": "couple",
+            "label": "Couple"
+          },
+          {
+            "value": "friends",
+            "label": "Friends"
+          },
+          {
+            "value": "family",
+            "label": "Family"
+          },
+          {
+            "value": "group",
+            "label": "Group"
+          }
+        ],
+        "rating_scale": null
+      },
+      "sub_element_conditions": [
+        {
+          "values": [
+            "business",
+            "alone"
+          ],
+          "elements": [
+            {
+              "type": "question",
+              "question": {
+                "options": null,
+                "id": 12341023,
+                "type": "text",
+                "label": "This is a conditional question in case the rating is 1 OR 2",
+                "validation": {
+                  "required": false,
+                  "min_characters": null
+                },
+                "choices": null,
+                "rating_scale": null
+              },
+              "sub_element_conditions": [
+                {
+                  "values": [
+                    "hi"
+                  ],
+                  "elements": [
+                    {
+                      "type": "question",
+                      "question": {
+                        "options": null,
+                        "id": 12341223,
+                        "type": "text",
+                        "label": "This is a conditional question in case the rating is 1 OR 2",
+                        "validation": {
+                          "required": false,
+                          "min_characters": null
+                        },
+                        "choices": null,
+                        "rating_scale": null
+                      },
+                      "sub_element_conditions": [
+                        {
+                          "values": [
+                            "hi"
+                          ],
+                          "elements": [
+                            {
+                              "type": "question",
+                              "question": {
+                                "options": null,
+                                "id": 12341003,
+                                "type": "text",
+                                "label": "This is a conditional question in case the rating is 1 OR 2",
+                                "validation": {
+                                  "required": false,
+                                  "min_characters": null
+                                },
+                                "choices": null,
+                                "rating_scale": null
+                              },
+                              "sub_element_conditions": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "token": "4847728334b514c1425d33596a117c17102a02520aa3151d23fabbedb25c3ea0",
+  "hash": "3b8667fa98e1ec0d",
+  "version": "9e04ad0d0d3ef699f83aa90a4214056b27f92aa6",
+  "translations": {
+    "select": "Select",
+    "website_url": "https://www.customer-alliance.com/en/",
+    "powered_by": "Powered by",
+    "validation.text.required": "This field is required. Try writing a response.",
+    "validation.text.too_short": "This field requires a minimum of %min_characters% characters. Try typing a longer response.",
+    "validation.choice.required": "This field is required. Try selecting an option.",
+    "multiple_selected": "Multiple selected",
+    "required": "required"
+  },
+  "assets": {
+    "icon_caret_down": "https://questionnaire.customer-alliance.com/build/images/embedded-questionnaire/caret_down.svg",
+    "icon_circle": "https://questionnaire.customer-alliance.com/build/images/embedded-questionnaire/circle.svg",
+    "icon_customer_alliance": "https://questionnaire.customer-alliance.com/build/images/embedded-questionnaire/customer_alliance.svg",
+    "icon_error": "https://questionnaire.customer-alliance.com/build/images/embedded-questionnaire/error.svg",
+    "icon_loading": "https://questionnaire.customer-alliance.com/build/images/embedded-questionnaire/loading.svg",
+    "icon_star": "https://questionnaire.customer-alliance.com/build/images/embedded-questionnaire/star.svg"
+  }
+}

@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Customer Alliance Questionnaire</string>
+    <string name="how_likely_are_you_to_recommend_this_product_or_service">How likely are you to recommend this product or service?</string>
+    <string name="_0">0</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="_9">9</string>
+    <string name="_10">10</string>
+    <string name="very_unlikely">Very unlikely</string>
+    <string name="highly_likely">Highly likely</string>
+    <string name="close">Close</string>
+    <string name="powered_by">Powered by</string>
+    <string name="customer_alliance">Customer Alliance</string>
+    <string name="show_dialogue">Show Dialogue</string>
+    <string name="do_you_have_any_additional_comments">Do you have any additional comments?</string>
+    <string name="back">Back</string>
+    <string name="submit">Submit</string>
+    <string name="dialog_1">Dialog 1</string>
+    <string name="dialog_2">Dialog 2</string>
+    <string name="thank_you">Thank you!!</string>
+    <string name="we_appreciate_your_response">We appreciate your response</string>
+    <string name="we_appreciate_your_responses">We appreciate your response.</string>
+    <string name="closed">Close</string>
+    <string name="thank_youu">Thank you!</string>
+    <string name="this_action_was_easy_to_complete">This action was easy to complete</string>
+    <string name="how_satisfied_are_you_with_this_product_or_service">How satisfied are you with this product or service?</string>
+    <string name="terrible">Terrible</string>
+    <string name="excellent">Excellent</string>
+    <string name="dialog_3">Dialog 3</string>
+    <string name="for_what_reason_are_you_canceling_your_account">For what reason are you canceling your account?</string>
+    <string name="i_didn_t_use_it_enough">I didn’t use it enough</string>
+    <string name="it_was_too_expensive">It was too expensive</string>
+    <string name="the_product_couldn_t_fit_my_needs">The product couldn’t fit my needs</string>
+    <string name="closedd">Close</string>
+    <string name="select">Select..</string>
+    <string name="selects">Select..</string>
+    <string name="next">Next</string>
+    <string name="textview">Textview</string>
+    <string name="required">Required</string>
+    <string name="drop_down">Drop_down</string>
+    <string name="we_re_having_trouble_saving_your_response_try_submitting_again_in_a_few_moments">We’re having trouble saving your response. Try submitting again in a few moments.</string>
+    <string name="font_color">Font color</string>
+    <string name="dialog_color">Dialog Color</string>
+    <string-array name="reasons">
+        <item>I didn’t use it enough</item>
+        <item>It was too expensive</item>
+        <item>The product couldn’t fit my needs</item>
+        <item>I found another product that fit my needs better</item>
+        <item>Other</item>
+    </string-array>
+
+</resources>
